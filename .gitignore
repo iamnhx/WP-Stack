@@ -1,0 +1,28 @@
+# WordPress
+html/web/wp
+html/web/.htaccess
+
+# WP-CLI
+db-sync
+sql-dump-*.sql
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Vendor (e.g. Composer)
+html/vendor/*
+!html/vendor/.gitkeep
+
+# Node Package Manager
+node_modules
+
+# Certs
+certs/
+
+# Logs
+logs/
+
+# Custom
+.DS_Store
